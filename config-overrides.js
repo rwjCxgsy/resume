@@ -62,12 +62,6 @@ const {
 const publicPath = () => config => {
     config.output.publicPath = './'
     config.output.path = path.resolve(__dirname, 'dist')
-    require('fs').writeFile('./config.json', JSON.stringify(config, null, 2), 'utf8', (err) => {
-        if (err) {
-            throw (err)
-        }
-        console.log('scucces')
-    })
     return config
 }
 
@@ -127,8 +121,7 @@ module.exports = {
             //     exclude: /(\/|\\)(node_modules)(\/|\\)/
             // }),
         ]),
-        addTslintLoader(),
-        publicPath()
+        addTslintLoader()
     ),
     devServer: overrideDevServer(
         server()
