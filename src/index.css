@@ -1,0 +1,112 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: '幼圆', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* autoprefixer on*/
+}
+html {
+  height: 100%;
+  background-color: aliceblue;
+  min-width: 1920px;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+body ul {
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1111986 */
+  src: url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.eot');
+  src: url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1111986_2cc9i4dn532.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+.line {
+  height: 1px !important;
+  width: 33px;
+  background-color: #999;
+  margin: 5px 0;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+li {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1223313 */
+  src: url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.eot');
+  src: url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1223313_hhf3u35ofnj.svg#iconfont') format('svg');
+}

@@ -1,0 +1,58 @@
+@keyframes light {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.weather-top {
+    padding-right: 50px;
+    padding-bottom: 50px;
+    .warp {
+        .left {
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 50px;
+                color: rgb(46, 46, 255);
+                font-weight: bold;
+                font-family: '微软雅黑';
+                i {
+                    font-style: normal;
+                    animation: light 1s infinite;
+                }
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            text-align: right;
+            .weather {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .current-temp {
+                    vertical-align: baseline;
+                    margin: 0 5px;
+                    font-size: 48px;
+                }
+                .weather-range {
+                    i {
+                        display: block;
+                    }
+                }
+            }
+            .address, .air, .updata-time {
+                margin-top: 5px;
+            }
+        }
+    }
+}
