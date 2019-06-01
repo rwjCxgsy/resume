@@ -3,6 +3,7 @@ import styles from './index.module.less'
 import G2 from '@antv/g2';
 const {useEffect} = React
 export default function () {
+
     useEffect(() => {
         const data = [
             { genre: '电脑开关机', value: 100 },
@@ -27,6 +28,7 @@ export default function () {
           // Step 4: 渲染图表
           chart.render();
     })
+    
     return (
         <div className={styles.skill}>
             <div className={styles.main}>
