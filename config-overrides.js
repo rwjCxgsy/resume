@@ -89,11 +89,11 @@ module.exports = {
         addWebpackAlias({
             '@': resolve('src')
         }),
-        fixBabelImports('import', {
-            libraryName: 'antd-mobile',
-            libraryDirectory: 'es',
-            style: true
-        }),
+        // fixBabelImports('import', {
+        //     libraryName: 'antd-mobile',
+        //     libraryDirectory: 'es',
+        //     style: true
+        // }),
         addLessLoader({
             javascriptEnabled: true,
             modifyVars: {
@@ -121,7 +121,8 @@ module.exports = {
             //     exclude: /(\/|\\)(node_modules)(\/|\\)/
             // }),
         ]),
-        addTslintLoader()
+        addTslintLoader(),
+        publicPath()
     ),
     devServer: overrideDevServer(
         server()
