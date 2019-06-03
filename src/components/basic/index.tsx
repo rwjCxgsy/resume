@@ -8,7 +8,7 @@ export default function () {
             <div className="line"></div>
             <div>
                 <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe658;'}}/>
-                <span>任伟君</span>
+                <span>任伟君（web前端）</span>
             </div>
             <div>
                 <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe66b;'}}/>
@@ -36,7 +36,7 @@ export default function () {
             </div>
             <div>
                 <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe607;'}}/>
-                <a href="tel:18108227370">18108227370</a>
+                <a href="tel:18108227370" style={{color: 'red'}}>18108227370</a>
             </div>
             <div>
                 <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe60a;'}}/>

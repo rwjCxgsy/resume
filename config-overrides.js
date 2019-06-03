@@ -70,7 +70,6 @@ const server = () => {
         arg2.proxy = {
             "/toutiao": "http://v.juhe.cn"
         }
-        // arg2.open = false
         console.log('--------------server--------------')
         console.log(arg2)
         require('fs').writeFile('./serveconfig.json', JSON.stringify(arg2, null, 2), 'utf8', (err) => {
