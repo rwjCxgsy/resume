@@ -9,15 +9,15 @@ export default function () {
             <div className="line" /> */}
             <div className={styles.main}>
                 <div>
-                    <i></i>
+                    <i>求职方向：</i>
                     <span>Web前端（H5）开发</span>
                 </div>
                 <div>
-                    <i></i>
+                    <i>到岗时间：</i>
                     <span>随时到岗</span>
                 </div>
                 <div>
-                    <i></i>
+                    <i>期望薪资：</i>
                     <span>10k-11k</span>
                 </div>
             </div>

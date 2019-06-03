@@ -7,8 +7,14 @@ const list  = [
     {
         type: 0,
         time: '2016-3-1',
-        name: '家',
+        name: '家（实习期间）',
         des: '开始自学'
+    },
+    {
+        type: 0,
+        time: '2016-6-1',
+        name: '学校',
+        des: '毕业'
     },
     {
         type: 1,
@@ -23,7 +29,7 @@ const list  = [
     },
     {
         type: 0,
-        time: '2017-4-1',
+        time: '2017-3-1',
         name: '开始接触vue',
     },
     {

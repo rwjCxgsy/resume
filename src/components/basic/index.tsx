@@ -46,6 +46,14 @@ export default function () {
                 <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe66e;'}}/>
                 <span>喜欢新技术，js知识扎实</span>
             </div>
+            <div>
+                <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe66e;'}}/>
+                <span>随时到岗</span>
+            </div>
+            <div>
+                <i className="iconfont" dangerouslySetInnerHTML={{__html: '&#xe66e;'}}/>
+                <span>期望薪资：[10k, 11k]</span>
+            </div>
         </div>
     )
 }
